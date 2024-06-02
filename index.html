@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced CSS Demo</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;900&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: Montserrsat, sans-serif;
+        background-color: #f0f0f0;
+      }
+
+      .my-a-links {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      .separate-class {
+        color: blue;
+      }
+      div ul li:nth-child(4) a{
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My Website</h1>
+    </header>
+    <div>
+      <h1>jerjejre</h1>
+      <ul>
+        <li><a href="#" class="my-a-links">Home</a></li>
+        <li><a href="#" class="my-a-links">About</a></li>
+        <li>
+          <a href="services.html" class="my-a-links separate-class">Services</a>
+        </li>
+        <li><a href="contact.html" class="my-a-links" target="_blank">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <main class="grid-container">
+      <section class="grid-item">Content 1</section>
+      <section class="grid-item">Content 2</section>
+      <section class="grid-item">Content 3</section>
+      <section class="grid-item">Content 4</section>
+    </main>
+    <footer>
+      <p>&copy; Nucamp Fundamentals 2024</p>
+    </footer>
+  </body>
+</html>
